@@ -1,0 +1,49 @@
+.DS_Store
+.gitconfig
+.git
+.gitignore
+
+backup/
+tmp_config.json
+
+
+# Version control systems
+RCS
+.+,v
+CVS
+\.#.+                # CVS conflict files / emacs lock files
+\.cvsignore
+\.svn
+_darcs
+\.hg
+\.git
+\.gitignore
+\.gitmodules
+
+# Backup and autosave files
+.+~                  # emacs backup files
+\#.*\#               # emacs autosave files
+
+# Documentation and licenses
+^/README.*
+^/LICENSE.*
+^/COPYING
+
+# macOS system files
+\.DS_Store
+
+# Build and project files
+Makefile
+\.gitconfig           # if you want machine-specific git configs
+README.md
+LICENSE
+COPYING
+
+# Temporary files
+backup/
+tmp/
+*.backup
+*.swp
+*.swo
+
+
